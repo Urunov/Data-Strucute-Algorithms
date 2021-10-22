@@ -1,14 +1,14 @@
 # Data-Strucute-Algorithms
 
-## Solutions to Leetcode problems in Java, Typescript, Rust, Python.
-## (coming soon all sources)
+## Solutions of [Leetcode](https://leetcode.com/) problems in Java, Typescript, Rust, Python.
+## (coming soon all sources - updated: October, 2021)
 
 
 | Problem Category | 	Count |
 | :---        |    :----:   |   
-| Easy	| n | 
-| Medium	|n |
-| Hard	|n | 
+| Easy	| 86 | 
+| Medium	| 32 |
+| Hard	| 3 | 
 
 
 
