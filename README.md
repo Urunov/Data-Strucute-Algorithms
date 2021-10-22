@@ -20,3 +20,4 @@
 
 ## Reference Materials 
 1. Competitive Programmer’s Handbook [(fn)](https://cses.fi/book/book.pdf)
+2. HashMap, LinkedHashMap, TreeMap - [Dynamic programing](https://www.youtube.com/watch?v=TTdheF15nIU&list=PL78sHffDjI75_EK-m6CO6kc3NCyR6kKkX&index=30)
