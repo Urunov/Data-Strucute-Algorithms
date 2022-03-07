@@ -11,4 +11,11 @@ public class Student {
     int role;
     String name;
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "role=" + role +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

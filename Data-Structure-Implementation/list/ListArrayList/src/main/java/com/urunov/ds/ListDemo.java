@@ -38,6 +38,9 @@ public class ListDemo {
 
         list2.add(student);
 
+        // set value to list2
+        list1.set(5, "Dudu");
+
         // Print reference to list
         System.out.println("list1 is : " + list1);
         System.out.println("list2 is : " + list2);
