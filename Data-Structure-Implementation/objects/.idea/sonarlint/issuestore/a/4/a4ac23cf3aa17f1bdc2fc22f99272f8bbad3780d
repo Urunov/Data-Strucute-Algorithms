@@ -1,0 +1,16 @@
+
+X
+java:S1854$"6Remove this useless assignment to local variable "b2".(Òµ„»ûÿÿÿÿ8¿äôöí/
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÿû¢á
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(¿“Äùÿÿÿÿ
+I
+java:S1481$"'Remove this unused "b2" local variable.(Òµ„»ûÿÿÿÿ8Ãäôöí/
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(ûê¼›
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(ï±¼
+U	java:S1060"9Replace this use of System.out or System.err by a logger.(‘”Ş8Ÿ´•óí/
+q
+java:S12154"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(€êÜ8›ëñöí/
+v
+java:S12155"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(‚êİ§şÿÿÿÿ8ëñöí/
+q
+java:S12156"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8Ÿëñöí/

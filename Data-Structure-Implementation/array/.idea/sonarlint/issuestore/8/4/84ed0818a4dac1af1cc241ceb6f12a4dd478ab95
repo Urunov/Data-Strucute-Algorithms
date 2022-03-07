@@ -1,0 +1,10 @@
+
+W
+java:S1854"5Remove this useless assignment to local variable "x".(ÐÓ¾‹þÿÿÿÿ8·ô÷šî/
+F
+java:S1197"*Move the array designators [] to the type.(‡æœ8Û˜‘Ðì/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(·Š·£8Ü˜‘Ðì/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8™Œ“Ðì/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(·Š·£8Ñ÷“Ðì/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8æÑ”Ðì/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(öà·¬øÿÿÿÿ

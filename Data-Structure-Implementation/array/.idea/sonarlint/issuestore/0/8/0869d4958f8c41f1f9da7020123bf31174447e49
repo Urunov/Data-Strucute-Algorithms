@@ -1,0 +1,12 @@
+
+W
+java:S1854"5Remove this useless assignment to local variable "k".(­–„úÿÿÿÿ8¦ôûĞì/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ıÆóÔúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(â³áùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(“ê¨
+S	java:S106"9Replace this use of System.out or System.err by a logger.(½¬é–øÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8åÈâĞì/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(öà·¬øÿÿÿÿ
+
+java:S2681"|This line will not be executed in a loop; only the first line of this 2-line block will be. The rest will execute only once.(­–„úÿÿÿÿ8«ôûĞì/

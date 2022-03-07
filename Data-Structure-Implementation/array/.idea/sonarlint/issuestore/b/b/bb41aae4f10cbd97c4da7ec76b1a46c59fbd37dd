@@ -1,0 +1,15 @@
+
+?
+java:S1659")Declare "rightNumber" on a separate line.(Ð×¥É
+Y
+java:S1659">Declare "k" and all following declarations on a separate line.(ý©¥Èÿÿÿÿÿ
+A
+java:S1481"&Remove this unused "i" local variable.(ý©¥Èÿÿÿÿÿ
+A
+java:S1481"&Remove this unused "k" local variable.(ý©¥Èÿÿÿÿÿ
+A
+java:S1481"&Remove this unused "l" local variable.(ý©¥Èÿÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(å‡ëÇøÿÿÿÿ8¢ÆöÄí/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8¥äöÄí/
+V	java:S125"<This block of commented-out lines of code should be removed.(äó°óùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£õÅÒûÿÿÿÿ

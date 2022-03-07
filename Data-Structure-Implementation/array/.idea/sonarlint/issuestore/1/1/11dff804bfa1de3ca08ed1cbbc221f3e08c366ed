@@ -1,0 +1,12 @@
+
+?
+java:S1659$")Declare "umnajeniya1" on a separate line.(˜Ô«º
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ê³î
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(…¢ßÚùÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ğ³æÂûÿÿÿÿ
+F
+java:S1481$"0Remove this unused "umnajeniya1" local variable.(˜Ô«º
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(÷çÎùÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(€ú¸¹
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(¹«Âµşÿÿÿÿ8ÎÜ¬çï/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(öà·¬øÿÿÿÿ
