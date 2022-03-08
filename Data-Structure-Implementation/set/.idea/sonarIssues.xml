@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$PROJECT_DIR$/../list/ListArrayList/src/main/java/com/urunov/ds/IteratorDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/project/setJava/SetDemo.java">
           <value>
             <set />
