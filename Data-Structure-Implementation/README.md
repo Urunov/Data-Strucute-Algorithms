@@ -3,8 +3,8 @@
 
  * Java List is an interface that extends the Collection and contains ordered collection of elements including duplicaite values.
    List support redundancy.
- 
- ------------ 1. ArrayList---------
+ ------
+## 1. ArrayList
  * ArrayList is the implementation of List interface where the elements can be dynamically added or remove from the list.
   
   ```
@@ -12,9 +12,32 @@
   ```
  * The size of the list is increased dynamically if the elements are added more than the initial size.
 
--------------2. LinkedList ------------
+
+```
+LinkedList:
+Insertion, deletion, and removal operations are faster in LinkedList because no need to resize as it is ArrayList
+```
+------
+``` 
+LinkedList: Insertion, deletion, and removal operations are quite faster.
+ArrayList: Comparatively the operations are slow here.
+
+Process:
+LinkedList: A LinkedList class can be a list and a queue because it implements List and Deque interfaces.
+ArrayList: An ArrayList class can be a list because implements only Lists.
+
+```
+------
+## 2. LinkedList
+ * A linked list is a liner data structure which is consitituted by a chain of nodes in which
+      * each node contains a value and a pointer to the next node in the chain.   
  * Linked List is a sequence of links which contains items.
  * Each link contains a connection to another link
+ * LinkedList features: 
+     * Implements Queue and Deque interfaces
+ * Maintains insertion order
+ * It is not synchronized
+ *  
     
   ```
        LinkedList object = new LinkedList()
@@ -29,13 +52,14 @@ Each node in this list stores the data of the node and a pointer or reference to
 Doubly Linked List has 2 references: 1 to the next node and another to previous node.
 
 ![Screen Shot 2022-03-07 at 7 15 00 PM](https://user-images.githubusercontent.com/11626327/157036167-20b1d568-58ca-4f72-b2e0-b14d1b0913e8.png)
+------
 
--------------3. Vector  ------------
+## 3. Vector
  * Vectors are similar to arrays, where the elements of the vector object can be accessed via an index into the vector.
  * Vector implements a dynamic array and is not limited to a specific size and is synchronized.
-     
------------ Queue --------------------
-
+ 
+------ 
+## Queue
 * Queue is Java follows a FIFO approach i.e. it orders the elements in First In First Out manner.
 
   ```
@@ -69,8 +93,10 @@ Doubly Linked List has 2 references: 1 to the next node and another to previous 
 
     }
  ```
- 
- -------- Set ----------------------
+
+------ 
+
+## Set 
  
  
  * A set refers to collection that cannot cantain duplicaiton elements 
