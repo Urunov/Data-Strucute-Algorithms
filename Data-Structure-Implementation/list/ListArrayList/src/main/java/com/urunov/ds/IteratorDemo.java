@@ -39,19 +39,23 @@ public class IteratorDemo {
         System.out.println("------------------------");
 
 
-        ArrayList <Object> universal = new ArrayList<>();
+        ArrayList <String> universal = new ArrayList<>();
 
         Student student = new Student();
         student.name = "Putin";
         student.role = 7;
 
-        universal.add(student);
-        universal.add("Tomson");
+       // universal.add(student);
+        universal.add("Chehov");
         universal.add("Pushkin");
+        universal.add("Lamanasov");
+        universal.add("Lermatov");
+        universal.add("Durov");
 
-        Iterator<Object> univ = universal.iterator();
-        System.out.println("  " + univ.next());
-
+        Iterator<String> univ = universal.iterator();
+        while (univ.hasNext()){
+            System.out.print("  " + univ.next());
+        }
 
     }
 }

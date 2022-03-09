@@ -1,0 +1,9 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ö´÷•
+N	java:S106"9Replace this use of System.out or System.err by a logger.(®ÔÎ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ì—Í‹ûÿÿÿÿ8¬Ç†Îö/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Á‰åúÿÿÿÿ8ÁŠŠÎö/
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‡¡åğ
+‰
+java:S1192"lDefine a constant instead of duplicating this literal "The first occurrence of using is at index =" 3 times.(®ÔÎ8ÇŠŠÎö/

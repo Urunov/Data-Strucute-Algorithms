@@ -38,6 +38,5 @@ public class SetDemo {
         } else{
             System.out.println("NO it is not");
         }
-
     }
 }

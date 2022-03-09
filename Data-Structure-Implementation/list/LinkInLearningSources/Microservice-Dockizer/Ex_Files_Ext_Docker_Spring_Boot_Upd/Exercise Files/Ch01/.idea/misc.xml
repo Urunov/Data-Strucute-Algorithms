@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/01_01/explorecali/pom.xml" />
+        <option value="$PROJECT_DIR$/01_03/Start/explorecali/pom.xml" />
+        <option value="$PROJECT_DIR$/01_03/Finish/explorecali/pom.xml" />
+        <option value="$PROJECT_DIR$/01_04/Start/explorecali/pom.xml" />
+        <option value="$PROJECT_DIR$/01_04/Finish/explorecali/pom.xml" />
+        <option value="$PROJECT_DIR$/01_05/Start/explorecali/pom.xml" />
+        <option value="$PROJECT_DIR$/01_05/Finish/explorecali/pom.xml" />
+        <option value="$PROJECT_DIR$/01_06/Start/explorecali/pom.xml" />
+        <option value="$PROJECT_DIR$/01_06/Finish/explorecali/pom.xml" />
+        <option value="$PROJECT_DIR$/01_02/explorecali/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
