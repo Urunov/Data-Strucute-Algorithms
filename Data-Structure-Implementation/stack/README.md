@@ -1,123 +1,24 @@
 ## Data-Strucute: Collection Framework
 
+   * A Stack is a linear data structure that follows the LIFO (Last-In-First-Out) principle. Stack has one end, whereas the Queue has two ends (front and rear). 
+   * It contains only one pointer top pointer pointing to the topmost element of the stack.
+   * Whenever an element is added in the stack, it is added on the top of the stack, and the element can be deleted only from the stack. In other words, a stack can be defined as a container in which insertion and deletion can be done from the one end known as the top of the stack.
+   
+---
+### Standard Stack Operations
+ The following are some common operations implemented on the stack:
 
- * Java List is an interface that extends the Collection and contains ordered collection of elements including duplicaite values.
-   List support redundancy.
- ------
-## 1. ArrayList
- * ArrayList is the implementation of List interface where the elements can be dynamically added or remove from the list.
-  
-  ```
-       ArrayList arr = new ArrayList()
-  ```
- * The size of the list is increased dynamically if the elements are added more than the initial size.
-
-
-```
-LinkedList:
-Insertion, deletion, and removal operations are faster in LinkedList because no need to resize as it is ArrayList
-```
-------
-``` 
-LinkedList: Insertion, deletion, and removal operations are quite faster.
-ArrayList: Comparatively the operations are slow here.
-
-Process:
-LinkedList: A LinkedList class can be a list and a queue because it implements List and Deque interfaces.
-ArrayList: An ArrayList class can be a list because implements only Lists.
-
-```
-------
-## 2. LinkedList
- * A linked list is a liner data structure which is consitituted by a chain of nodes in which
-      * each node contains a value and a pointer to the next node in the chain.   
- * Linked List is a sequence of links which contains items.
- * Each link contains a connection to another link
- * LinkedList features: 
-     * Implements Queue and Deque interfaces
- * Maintains insertion order
- * It is not synchronized
- *  
-    
-  ```
-       LinkedList object = new LinkedList()
-  ```
-LinkedList contains 2 types. 
-   1. Singly Linked List. 
-Each node in this list stores the data of the node and a pointer or reference to the next node in the list.
-
-![Screen Shot 2022-03-07 at 7 14 45 PM](https://user-images.githubusercontent.com/11626327/157036155-f10f1699-e8cb-4e90-8886-c41a9084b6c2.png)
-
-   3. Double Linked List
-Doubly Linked List has 2 references: 1 to the next node and another to previous node.
-
-![Screen Shot 2022-03-07 at 7 15 00 PM](https://user-images.githubusercontent.com/11626327/157036167-20b1d568-58ca-4f72-b2e0-b14d1b0913e8.png)
-------
-
-## 3. Vector
- * Vectors are similar to arrays, where the elements of the vector object can be accessed via an index into the vector.
- * Vector implements a dynamic array and is not limited to a specific size and is synchronized.
- 
------- 
-## Queue
-* Queue is Java follows a FIFO approach i.e. it orders the elements in First In First Out manner.
-
-  ```
-       Queue<Integer> ocherd = new LinkedList<>();
-  ```
- ![Screen Shot 2022-03-07 at 9 41 51 PM](https://user-images.githubusercontent.com/11626327/157037155-759f87e2-7cea-4994-8243-68c909d293de.png)
+* push(): When we insert an element in a stack then the operation is known as a push. If the stack is full then the overflow condition occurs.
+* pop(): When we delete an element from the stack, the operation is known as a pop. If the stack is empty means that no element exists in the stack, this state is known as an underflow state.
+* isEmpty(): It determines whether the stack is empty or not.
+* isFull(): It determines whether the stack is full or not.'
+* peek(): It returns the element at the given position.
+* count(): It returns the total number of elements available in a stack.
+* change(): It changes the element at the given position.
+* display(): It prints all the elements available in the stack.
  
  
- ```
- PriorityQueue<Integer> queue = new PriorityQueue<Integer>();
-
-        for (int i=10; i>0; i--){
-            queue.add(i);
-        }
-        // Queue:  (Front) 10 9 8 7 6 5 4 3 2 1 (Rear)
-        /*** PriorityQueue sorts the data for us
-         *   (Front) 1 2 3 4 5 6 7 8 9 10 (Rear) | Sorted Queue
-         */
-        /** Peaking --> Obtaining the head of Queue
-         Polling --> Remove the head of Queue
-         **/
-
-        System.out.println("Queue size is : " + queue.size());
-        System.out.println("Head of Queue is (peek) : " + queue.peek()); // head of queue : 1
-
-        queue.poll(); // Removing the head 1
-        System.out.println("Queue size after (poll)  : " + queue.size());
-
-        System.out.println("Head of Queue is : " + queue.peek()); // New head of Queue : 2
-
-
-    }
- ```
-
------- 
-
-## Set 
+ ![Screen Shot 2022-03-09 at 11 10 11 PM](https://user-images.githubusercontent.com/11626327/157458235-f8189a06-6a11-4485-9925-69d98dc661ea.png)
+ ---
  
- 
- * A set refers to collection that cannot cantain duplicaiton elements 
- * It is mainly used to model the mathematical set abstraction 
- 
- Set consists of 3 main elements: 
-   - HashSet
-        - Java hashset class creates a collection that use a hash table for storage.
-        - Hashset only contain unique elements and it inherits the AbstractSet classs and implements Set interface.
-        - It uses a mechanism hashing to store the elements.
-   - LinkedHashSet
-        - Java LinkedHashSet class is a hash table and Linked list implementation of the set interface.
-        - It contains only unique elements
-        - It provides all optional set operations and maintains insertion order
-        - LinkedHashSet<String> al = new LinkedHashSet();
-        - The class inherits methods from other classes.
-        - HashSet, AbstractSet, AbstractCollection, Object, Set
-   - TreeSet
-        - TreeSet class implements the Set interface that uses a tree for storage.
-        - The objects of this classs are unique and are stored in the ascending order
-        - It inherits AbstactSet class and implements NavigableSet interface
- 
- 
- 
+ ![Screen Shot 2022-03-09 at 11 10 17 PM](https://user-images.githubusercontent.com/11626327/157458208-24c89bb0-1c2a-4ec7-bed8-385cf3918fdb.png)
