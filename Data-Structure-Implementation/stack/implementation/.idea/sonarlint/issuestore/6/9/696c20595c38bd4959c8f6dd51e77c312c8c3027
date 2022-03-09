@@ -1,0 +1,10 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(š¥§ë
+M	java:S106"9Replace this use of System.out or System.err by a logger.(þÔ¾
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(Ä…Ç²ûÿÿÿÿ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(Ä…Ç²ûÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(õÂËÝøÿÿÿÿ
+o
+java:S1488("YImmediately return this expression instead of assigning it to the temporary variable "x".(Ê©õÛ
+o
+java:S14882"YImmediately return this expression instead of assigning it to the temporary variable "x".(„Ò­•
