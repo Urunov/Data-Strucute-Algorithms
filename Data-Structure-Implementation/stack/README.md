@@ -5,6 +5,11 @@
    * Whenever an element is added in the stack, it is added on the top of the stack, and the element can be deleted only from the stack. In other words, a stack can be defined as a container in which insertion and deletion can be done from the one end known as the top of the stack.
    
 ---
+
+![Screen Shot 2022-03-09 at 9 21 45 PM](https://user-images.githubusercontent.com/11626327/157459549-cb123da4-d996-4d92-92a1-57fc8fedb43c.png)
+
+---
+
 ### Standard Stack Operations
  The following are some common operations implemented on the stack:
 
