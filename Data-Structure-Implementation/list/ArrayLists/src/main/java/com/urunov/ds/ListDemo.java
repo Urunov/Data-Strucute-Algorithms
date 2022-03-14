@@ -2,6 +2,7 @@ package com.urunov.ds;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 /**
  * @Company: {Nextree Inc.}
@@ -12,109 +13,85 @@ import java.util.Iterator;
 public class ListDemo {
     public static void main(String[] args) {
 
-        // 1. List: list1 can only store String Object
-        ArrayList<String> list1 = new ArrayList<String>();
+        /*
+     int [] mas = new int [4];
 
-        // 2. List: list2 can store any type of Object
-        ArrayList list2 = new ArrayList<>();
+       massiv = [1, 2, 66, 5, 4]  razmer = 4
+       index = 0, 1, 2, 3
+        * */
 
-        // 1. Add Data in List
-        list1.add("John"); // 0 - index
-        list1.add("Jennies");
-        list1.add("Jim");
-        list1.add("Jack");
-        list1.add("John");
-        list1.add("Joe"); // 5 - index
-
-          // Methods: add, remove, size, contains, set, indexOf,
-
-        // list1.add(10); // error
-
-        list2.add("Urunov");
-        list2.add(100);
-        list2.add(2.54);
-        list2.add(54.3);
-
-        Student student = new Student();
-        student.role = 101;
-        student.name ="Mike";
-
-        Student student1 = new Student();
-        student1.role = 200;
-        student1.name = "Sherzod";
-
-        list2.add(student);
-        list2.add(student1);
-
-        // set value to list2
-        list1.set(5, "Dudu"); // index, value
-
-        // Print reference to list
-        System.out.println("list1 is : " + list1);
-        System.out.println("list2 is : " + list2);
+        /***
+         * Data Structure
+         * -------------
+         * Collection Framework
+         *
+         * Array,
+         * List,
+         * ArrayList
+         * LinkedList (Singly, Doubly + Circle )
+         *  Set
+         *  Hash
+         *  Queue
+         *  DeQueue,
+         *  Iterator - iteratsiya
+         *
+         * Kolleksiya framework
+         *
+         * */
 
 
-        // 2. Get the element from list
-        String name = list1.get(2);
-        System.out.println("name is : " + name);
+        ArrayList listGermany = new ArrayList();
+        // lyuboy tip i razmer mojno ispolzovat.
+        listGermany.add("Madina");
+        listGermany.add("Tiner");
+        listGermany.add(290);
+        listGermany.add(43.5);
+        listGermany.add(83838f);
+        listGermany.add('F');
 
-        Object obj = list2.get(1);
-        System.out.println("object: " + obj);
+        System.out.println("Guru:  " + listGermany);
 
-        // 3. Update Element in List
-        list1.add(4, "Hamdamboy");
-        list1.add(5, "Urunov");
-        list1.add(6, "Anna");
-        System.out.println("list1 now is : " + list1);
+        listGermany.add(1, "Mahmud");
+        listGermany.add(5, "Diana");
+        System.out.println("Guru list: " + listGermany);
 
-        // 4. Remove Element from List
-        list1.remove(2);
-        System.out.println("list1 after remove is : " + list1);
+        System.out.println("List Germany by index: " + listGermany.get(7));
+        listGermany.set(4, "Berlin");
 
-        System.out.println("------------------");
-        ArrayList test = new ArrayList();
-        test = list2;
-        System.out.println(" Test before: " + test);
-        test.clear();
+        System.out.println("List Germany with capital: " + listGermany);
 
-        System.out.println(" Test after:  " + test);
-        // list.clear()--> remove all
-        System.out.println("------------------");
-
-
-        // Find element
-        if (list1.contains("Sherzod")){
-            System.out.println("Urunov is in the list");
-        } else {
-            System.out.println("Sorry could not find.");
+        if (listGermany.contains("Berlin")){
+            System.out.println("Yes na spiska: ");
+        } else
+        {
+            System.out.println("Net informatsiya");
         }
 
-        // 5. Iterator in ArrayList
-        System.out.println("-- Iterating with Enhanced for loop ----");
-        for (String str: list1){
-            System.out.println(str);
-        }
+        listGermany.remove(3);
+        listGermany.remove("Tiner");
+        System.out.println("posle udaleniya; " + listGermany);
 
-        System.out.println("------------------------");
-
-        System.out.println("--- Iterating with Enhanced for Loop --- ");
-        for (int i=0; i<list1.size(); i++){
-            // array.length --> arraylist.size
-
-            System.out.println(list1.get(i));
-        }
-
-        list1.add(6, "Kuku");
-
+        //listGermany.clear(); //
+       // System.out.println("Udalit " + listGermany);
 
         System.out.println("--- Iterating with Iterator ----- ");
-        Iterator<String> iterator = list1.iterator();
+
+        ArrayList<String> turkishArqadash = new ArrayList<String>();
+        turkishArqadash.add("Ankara");
+        turkishArqadash.add("Istanbul");
+        turkishArqadash.add("Margne");
+        turkishArqadash.add("Kuru");
+
+        Iterator <String > iterator = turkishArqadash.iterator();
+
+
         System.out.println(iterator.next()); // similar get
-        System.out.println(iterator.next());
+        System.out.println(turkishArqadash.get(1));
 
         System.out.println("-------------------------");
 
         System.out.println("Iterating with while Iteration ");
+        System.out.println("------------------------");
 
 
         while (iterator.hasNext()){
@@ -124,6 +101,4 @@ public class ListDemo {
         }
         System.out.println("------------------------");
     }
-
-
 }

@@ -1,0 +1,36 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(ÌËáÙ
+E
+java:S3740]"/Provide the parametrized type for this generic.(×Éÿ¨
+E
+java:S3740]"/Provide the parametrized type for this generic.(×Éÿ¨
+N
+java:S1854]"8Remove this useless assignment to local variable "test".(×Éÿ¨
+V	java:S125?"<This block of commented-out lines of code should be removed.(çë¿Ÿÿÿÿÿÿ
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(ÜØ«”úÿÿÿÿ
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(éªÏÃÿÿÿÿÿ
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(ÇˆÁ
+N	java:S106P"9Replace this use of System.out or System.err by a logger.(¢úä¶
+S	java:S106V"9Replace this use of System.out or System.err by a logger.(’Å¹Æüÿÿÿÿ
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(Øí”Ğùÿÿÿÿ
+N	java:S106\"9Replace this use of System.out or System.err by a logger.(È©ƒ«
+N	java:S106_"9Replace this use of System.out or System.err by a logger.(ÍÀãõ
+N	java:S106b"9Replace this use of System.out or System.err by a logger.(Ú‘£Á
+N	java:S106d"9Replace this use of System.out or System.err by a logger.(È©ƒ«
+S	java:S106i"9Replace this use of System.out or System.err by a logger.(£‚Úáşÿÿÿÿ
+S	java:S106k"9Replace this use of System.out or System.err by a logger.(¥ÒÂ®øÿÿÿÿ
+N	java:S106o"9Replace this use of System.out or System.err by a logger.(£½¾
+M	java:S106q"9Replace this use of System.out or System.err by a logger.(ƒÚáB
+S	java:S106t"9Replace this use of System.out or System.err by a logger.(éç¬ùÿÿÿÿ
+S	java:S106v"9Replace this use of System.out or System.err by a logger.(¯°¿÷üÿÿÿÿ
+N	java:S106z"9Replace this use of System.out or System.err by a logger.(üèˆÅ
+O	java:S106€"9Replace this use of System.out or System.err by a logger.(§À‹Æ
+O	java:S106‚"9Replace this use of System.out or System.err by a logger.(±ğçò
+T	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(¡¹—Òøÿÿÿÿ
+O	java:S106…"9Replace this use of System.out or System.err by a logger.(ğÔ‘¬
+T	java:S106‡"9Replace this use of System.out or System.err by a logger.(“©ó…üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ƒÚáB
+T	java:S106"9Replace this use of System.out or System.err by a logger.(éç¬ùÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‡‡„

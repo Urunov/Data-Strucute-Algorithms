@@ -1,0 +1,16 @@
+
+˜
+java:S1186‹"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æ›Ó¢
+\
+java:S11268"AReplace this if-then-else statement by a single return statement.(¨ëšÊùÿÿÿÿ
+W
+java:S1126U"AReplace this if-then-else statement by a single return statement.(¡Ğ¡
+W
+java:S1854À"9Remove this useless assignment to local variable "found".(·”íŒ8áèÄø/
+M
+java:S1481»"*Remove this unused "found" local variable.(Íªäúÿÿÿÿ8âèÄø/
+H
+java:S1481½"*Remove this unused "index" local variable.(ìüà·8âèÄø/
+9
+java:S3626Ï"Remove this redundant jump.(ûÁİ…8òÒÄø/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éŒ›éşÿÿÿÿ
