@@ -7,4 +7,8 @@
 5. Queue
 6. Hashing
  
- 
+
+
+Reference
+1. [Collection](https://www.geeksforgeeks.org/data-structures/) 
+2. [Data structure](https://www.javatpoint.com/data-structure-stack)
