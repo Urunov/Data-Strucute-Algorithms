@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/com/linkedlist/sample/LinkedListSingly.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../../ByNextree_CoachingResources/L-ELK/els-spring/user-producer/src/main/java/uz/qqb/userproducer/model/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../../ByNextree_CoachingResources/L-ELK/els-spring/user-producer/src/main/java/uz/qqb/userproducer/service/UserProducerService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

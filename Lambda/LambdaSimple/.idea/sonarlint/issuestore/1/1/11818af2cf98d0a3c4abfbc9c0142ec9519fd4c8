@@ -1,0 +1,7 @@
+
+T
+java:S1854"9Remove this useless assignment to local variable "myCat".(‡›µƒþÿÿÿÿ
+E
+java:S1481"*Remove this unused "myCat" local variable.(‡›µƒþÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Ù¼úžþÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ì­¿£ùÿÿÿÿ
