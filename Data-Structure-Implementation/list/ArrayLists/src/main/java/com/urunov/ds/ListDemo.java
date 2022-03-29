@@ -38,10 +38,12 @@ public class ListDemo {
          * Kolleksiya framework
          *
          * */
-
+           // int [] massiv =  new massive[5];
 
         ArrayList listGermany = new ArrayList();
         // lyuboy tip i razmer mojno ispolzovat.
+        // add
+
         listGermany.add("Madina");
         listGermany.add("Tiner");
         listGermany.add(290);
@@ -52,8 +54,12 @@ public class ListDemo {
         System.out.println("Guru:  " + listGermany);
 
         listGermany.add(1, "Mahmud");
+        listGermany.add(3, "Generh");
         listGermany.add(5, "Diana");
         System.out.println("Guru list: " + listGermany);
+
+        //get ,set
+
 
         System.out.println("List Germany by index: " + listGermany.get(7));
         listGermany.set(4, "Berlin");
