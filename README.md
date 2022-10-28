@@ -3,7 +3,14 @@
 ## Solutions of [Leetcode](https://leetcode.com/) problems in Java, Typescript, Rust, Python.
 ## (coming soon all sources - updated: October, 2021)
 
+--- 
+EASY
+---
+1920. Build Array from [Permutation](https://leetcode.com/problems/build-array-from-permutation/)
 
+
+
+---
 | Problem Category | 	Count |
 | :---        |    :----:   |   
 | Easy	| 86 | 
